@@ -105,6 +105,19 @@ h2::after{
   margin-bottom: 10px;
 }
 
+.icon-small{
+ display: inline-block;
+ width: 30px;
+ text-align: center;
+ color: #e67e22;
+ font-size: 120%; 
+
+ /* secrets to align text and icons */
+line-height: 120%;
+vertical-align: middle;
+margin-top: -4px;
+
+}
 
 /* -----------BUTTONS ------------------- */
 
@@ -297,3 +310,15 @@ margin-top: 70px;
   width: auto;
   margin-right: 10px;
 }
+
+/* ----------------------------CITIES------------------ */
+.box img{
+  width: 100%;
+  height: auto;
+  margin: 15px;
+}
+
+.city-feature{
+  margin-bottom: 5px;
+}
+
